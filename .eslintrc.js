@@ -17,6 +17,7 @@ module.exports = {
   'rules': {
     'no-console': 0,
     'no-empty': 0,
+    'no-unused-vars': 'error',
     'no-irregular-whitespace':0,
     'react/react-in-jsx-scope': 'off',
     'indent': [2, 2],
