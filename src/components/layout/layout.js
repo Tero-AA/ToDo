@@ -4,6 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import PropTypes from 'prop-types';
 
 function Layout(props) {
   return ( 
@@ -22,5 +23,9 @@ function Layout(props) {
     </Fragment>
   );
 }
+
+Layout.propTypes = {
+  children: PropTypes.any
+};
  
 export default Layout;
