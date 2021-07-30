@@ -5,11 +5,12 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import PropTypes from 'prop-types';
+import './layout.scss';
 
 function Layout(props) {
   return ( 
     <Fragment>
-      <AppBar position="static">
+      <AppBar position="static" className="navbar">
         <Toolbar>
           <IconButton edge="start" color="inherit" aria-label="menu">
             <MenuIcon />
