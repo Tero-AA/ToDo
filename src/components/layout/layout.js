@@ -21,6 +21,11 @@ function Layout(props) {
         </Toolbar>
       </AppBar>
       {props.children}
+      <div className="footer">
+        <div>
+          footer
+        </div>
+      </div>
     </Fragment>
   );
 }
